@@ -2,47 +2,223 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>UnityAid - Coming Soon</title>
+  <title>UnityAid</title>
 
   <link rel="stylesheet" href="style.css">
 
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-  >
+  />
+
 </head>
 
 <body>
 
-  <!-- Background Animation -->
+  <!-- Animated Background -->
 
-  <div class="bg-animation"></div>
+  <div class="bg"></div>
 
-  <!-- Main Container -->
+  <!-- Navbar -->
 
-  <div class="container">
+  <nav>
 
-    <!-- Logo -->
+    <div class="logo-box">
 
-    <img src="logo.png" class="logo">
+      <img src="logo.png">
 
-    <!-- Title -->
+      <h2>UnityAid</h2>
 
-    <h1>
-      UnityAid
-    </h1>
+    </div>
 
-    <p class="tagline">
-      Connect. Care. Change.
-    </p>
+    <div class="links">
 
-    <!-- Main Text -->
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Campaigns</a>
+      <a href="#">Donate</a>
+      <a href="#">Contact</a>
 
-    <h2>
-      Something Amazing Is Coming Soon
-    </h2>
+    </div>
 
-    <p class="description
+  </nav>
+
+  <!-- Hero -->
+
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <span class="badge">
+        🌍 Charity Platform
+      </span>
+
+      <h1>
+        Together We Can Build
+        A Better Future
+      </h1>
+
+      <p>
+        UnityAid is creating a modern platform
+        that helps people support communities
+        around the world.
+      </p>
+
+      <div class="hero-buttons">
+
+        <button onclick="showMessage()">
+          Donate Now
+        </button>
+
+        <button class="glass-btn">
+          Become Volunteer
+        </button>
+
+      </div>
+
+      <!-- Stats -->
+
+      <div class="stats">
+
+        <div class="stat-box">
+          <h2>10K+</h2>
+          <p>Supporters</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>150+</h2>
+          <p>Campaigns</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>50+</h2>
+          <p>Countries</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Floating Image -->
+
+    <div class="hero-image">
+
+      <div class="circle"></div>
+
+      <img src="logo.png">
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section class="features">
+
+    <div class="feature-card">
+
+      <i class="fa-solid fa-handshake"></i>
+
+      <h3>Connect</h3>
+
+      <p>
+        Bringing caring people together.
+      </p>
+
+    </div>
+
+    <div class="feature-card">
+
+      <i class="fa-solid fa-heart"></i>
+
+      <h3>Care</h3>
+
+      <p>
+        Helping families with real support.
+      </p>
+
+    </div>
+
+    <div class="feature-card">
+
+      <i class="fa-solid fa-earth-americas"></i>
+
+      <h3>Change</h3>
+
+      <p>
+        Creating positive impact globally.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- Campaign Section -->
+
+  <section class="campaigns">
+
+    <h1>Featured Campaigns</h1>
+
+    <div class="campaign-container">
+
+      <div class="campaign-card">
+
+        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c">
+
+        <div class="campaign-content">
+
+          <h2>Food Donation</h2>
+
+          <p>
+            Help provide meals for families.
+          </p>
+
+          <button>Support Now</button>
+
+        </div>
+
+      </div>
+
+      <div class="campaign-card">
+
+        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952">
+
+        <div class="campaign-content">
+
+          <h2>Education Help</h2>
+
+          <p>
+            Support children education.
+          </p>
+
+          <button>Support Now</button>
+
+        </div>
+
+      </div>
+
+      <div class="campaign-card">
+
+        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d">
+
+        <div class="campaign-content">
+
+          <h2>Medical Support</h2>
+
+          <p>
+            Help people receive treatment.
+          </p>
+
+          <button>Support Now</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section
