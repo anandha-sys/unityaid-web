@@ -1,1 +1,3 @@
-console.log("UnityAid Website Running");
+function showAlert(){
+  alert("Thank you for supporting UnityAid ❤️");
+}
