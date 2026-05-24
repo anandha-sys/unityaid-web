@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f7fa;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 50px;
+  background:#0a43b8;
+  color:white;
+}
+
+.links a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+}
+
+.hero{
+  height:85vh;
+  background:linear-gradient(135deg,#0a43b8,#39c53f);
+  color:white;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.hero h1{
+  font-size:60px;
+  max-width:900px;
+}
+
+.hero p{
+  margin-top:20px;
+  max-width:700px;
+  font-size:22px;
+}
+
+.buttons{
+  margin-top:30px;
+}
+
+button{
+  padding:15px 30px;
+  border:none;
+  border-radius:30px;
+  margin:10px;
+  cursor:pointer;
+  font-size:18px;
+}
+
+.donate{
+  background:white;
+  color:#0a43b8;
+}
+
+.join{
+  background:#0a43b8;
+  color:white;
+}
+
+.features{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:80px 20px;
+  flex-wrap:wrap;
+}
+
+.card{
+  width:300px;
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.card h3{
+  margin-bottom:15px;
+  color:#0a43b8;
+}
