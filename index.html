@@ -5,63 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UnityAid | Coming Soon</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo-container">
-            <h1><span class="text-blue">Unity</span><span class="text-green">Aid</span></h1>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#mission">Our Mission</a></li>
-            <li><a href="https://www.instagram.com/_unity_aid_/?utm_source=qr&r=nametag" target="_blank" rel="noopener noreferrer" class="btn-nav">Join Us</a></li>
-        </ul>
-    </nav>
+    <canvas id="particleCanvas"></canvas>
 
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <div class="coming-soon-badge animate-up">Something Epic is Coming Soon</div>
-            
-            <h1 class="animate-up delay-1">Forging Bonds. <br> Igniting Hope.</h1>
-            <p class="tagline animate-up delay-2">Connect. Care. Change.</p>
-            <div class="hero-buttons animate-up delay-3">
-                <a href="#mission" class="btn btn-primary">Discover How</a>
-                <a href="https://www.instagram.com/_unity_aid_/?utm_source=qr&r=nametag" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Follow Our Journey</a>
-            </div>
-        </div>
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-    </header>
-
-    <section id="mission" class="pillars">
-        <div class="section-title reveal">
-            <h2>Our Core Pillars</h2>
-            <div class="underline"></div>
-        </div>
+    <div class="content-wrapper">
         
-        <div class="cards-container">
-            <div class="card reveal delay-1">
-                <div class="icon blue-icon">🤝</div>
-                <h3>Connect</h3>
-                <p>We bridge the gap between those who want to help and those in need, fostering a global community of support.</p>
-            </div>
-            <div class="card reveal delay-2">
-                <div class="icon green-icon">❤️</div>
-                <h3>Care</h3>
-                <p>Compassion is our currency. We provide essential resources and unwavering emotional support to vulnerable groups.</p>
-            </div>
-            <div class="card reveal delay-3">
-                <div class="icon blue-icon">🌱</div>
-                <h3>Change</h3>
-                <p>Transforming lives through sustainable initiatives. We don't just offer temporary relief; we build brighter futures.</p>
-            </div>
+        <div class="logo animate-fade-down">
+            <span class="text-blue">Unity</span><span class="text-green">Aid</span>
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2026 AK GROUP OF TECHNOLOGIES. All rights reserved.</p>
+        <div class="text-container">
+            <h1 id="typewriterText" class="glitch-text"></h1>
+            <span class="cursor">|</span>
+        </div>
+
+        <p class="subtitle animate-fade-up delay-1">Connect. Care. Change.</p>
+
+        <div class="button-container animate-fade-up delay-2">
+            <a href="https://www.instagram.com/_unity_aid_/?utm_source=qr&r=nametag" target="_blank" rel="noopener noreferrer" class="glow-btn">
+                <span class="btn-text">Join Our Journey</span>
+                <div class="btn-glow"></div>
+            </a>
+        </div>
+
+    </div>
+
+    <footer class="animate-fade-up delay-3">
+        &copy; 2026 AK GROUP OF TECHNOLOGIES. All rights reserved.
     </footer>
 
     <script src="script.js"></script>
